@@ -1,0 +1,29 @@
+.section {
+    &__wrapper {
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__img {
+        max-width: 600px;
+    }
+    &__text {
+        max-width: 450px;
+        &-title {
+            font-size: 36px;
+            padding-bottom: 22px;
+        }
+        &-subtitle {
+            font-size: 18px;
+            line-height: 26px;
+            span {
+                display: block;
+                padding-bottom: 12px;
+                &:last-child {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

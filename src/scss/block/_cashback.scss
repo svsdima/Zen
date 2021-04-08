@@ -1,0 +1,26 @@
+.cashback {
+    &__wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .section__text {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    &__btn {
+        margin-top: 20px;
+    }
+    &__partners {
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        grid-template-rows:  1fr auto 2fr;
+        column-gap: 100px;
+        row-gap: 50px;
+        &-img {
+            max-width: 195px;
+        }
+    }
+}

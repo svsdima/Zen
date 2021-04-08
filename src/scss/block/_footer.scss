@@ -1,0 +1,46 @@
+.footer {
+    &__wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: space-between;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        &-list {
+            list-style-type: none;
+            span {
+                display: block;
+                padding-bottom: 35px;
+            }
+        }
+        &-link {
+            padding-bottom: 20px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+    &__down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0 65px 0;
+    }
+    &__zen {
+        max-width: 250px;
+        padding-top: 55px;
+    }
+    &__text {
+        max-width: 850px;
+        color: #AAAAAA;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    &__pci {
+        max-width: 180px;
+    }
+}
