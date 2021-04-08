@@ -1,0 +1,45 @@
+.header {
+    &__wrapper {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .text {
+        max-width: 450px;
+        &__play {
+            display: flex;
+            align-items: center;
+            &-img {
+                width: 29px;
+                height: 29px;
+            }
+            span {
+                padding-left: 10px;
+            }
+        }
+        &__link {
+            display: block;
+            width: 170px;
+            padding-bottom: 20px;
+            &:last-child {
+                padding: 0;
+            }
+        }
+        &__title {
+            font-size: 42px;
+            padding: 33px 0 23px 0;
+            span {
+                display: block;
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            line-height: 26px;
+            padding-bottom: 13px;
+        }
+        &__img {
+            max-width: 600px;
+        }
+    }
+}
